@@ -17,8 +17,13 @@
     10 - utilize o comando "git status" para confirmar as alterações.
 
 #### - REPOSITÓRIO LOCAL E REMOTO - interação, PUSH/PULL
-     1 - Crie um repositório no site do github.
+     1 - crie um repositório no site do github.
      2 - aponte o repositório local para o remoto. È nescessário empurrar (push) o local para o remoto, primeiramente informe a origem. Utilize o comando "git remote add origin 'link do repositorio'".
      3 - utilize o comando "git remote -v" para listar os repositórios remotos cadastrados.
      4 - utilize o "git status" para verificar nenhuma pendência no repositório.
      5 - utilize o comando "git push origin master" para empurrar o repositório. Agora estão sincronizados ambos os repositórios, local(seuPC) e remoto(github).
+     6 - caso algum arquivo esteja com conflitos de versionamento, voce precisara utilizar o comando "git pull origin master" para puxar de volta o arquivo do remoto para o local.
+     7 - podem ocorrer problemas ao puxar, dependendo da configuracao do seu github. As vezes e necessario configurar a fundicao (merge) de arquivos, utilizando o comando "git config pull.rebase false" antes de utilizar o "pull".
+     8 - na sequencia faca as edicoes no arquivo utilizando o comando "nano "nomedoarquivo.md", ou indo diretamente na pasta dentro do disco local.
+     9 - utilize o comando "git add *" para adicionar os arquivos conflitantes para a area "staged"
+     10 - agora faca um commit para concluir a fundicao dos arquivos e atualizar o repositorio, de forma a resolver os conflitos. Novamente, o repositorio local e remoto estao sincronizados.

@@ -8,6 +8,6 @@ Começando do zero, possuo quase nenhum conhecimento na área,
 disposto a mudar esse cenário e pronto pra cair de cabeça nesse
 novo mundo.
 
-"aprendendo a resolver conflitos"
+"aprendendo a resolver conflitos" T
 
 

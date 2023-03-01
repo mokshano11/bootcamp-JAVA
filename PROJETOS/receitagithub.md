@@ -17,7 +17,7 @@
     9 - utilize o comando "git commit -m 'mensagem'", para adicionar um commit no arquivo.
     10 - utilize o comando "git status", para confirmar as alterações.
 
-#- REPOSITÓRIO LOCAL E REMOTO - interação, PUSH/PULL
+# - REPOSITÓRIO LOCAL E REMOTO - interação, PUSH/PULL
 ## - MODO DE PREPARO -
      1 - crie um repositório no site do github.
      2 - aponte o repositório local para o remoto. È nescessário empurrar (push) o local, para o remoto. Primeiramente informe a origem. Utilize o comando "git remote add origin 'link do repositório'".
